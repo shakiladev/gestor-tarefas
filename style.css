@@ -1,0 +1,64 @@
+
+
+body {
+    font-family: sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    background-color: aqua;
+    max-width: 600px;
+    align-content: center;
+}
+
+form {
+    width: 600px;
+    display: inline-block;
+}
+
+fieldset {
+    border: 1px double #333;
+    color: #000;
+    margin: 10px 0 0 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+input[type=text], textarea {
+    width: 90%;
+    border: 1px solid #333;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    float: right;
+    clear: both;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+table {
+    width: 600px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+table th {
+    background-color: #EEE;
+    font-size: 18px;
+}
+
+table td {
+    border-bottom: 1px solid #333;
+    color: #000;
+}
